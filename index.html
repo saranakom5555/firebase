@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">  
+    <head>
+        <meta charset="utf-8">
+        <title>Firebase</title>
+ <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase.js"></script>
+ 
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-analytics.js"></script>
+ 
+ 
+    </head>
+    <body>
+        <div class="cintainer">
+            <h2 align="center">FireStore</h2>
+ 
+            <table style="width: 50%" border="1" align="center"class="table table-bordered" id="tbresult">
+                <tr>
+                    <th>ชื่อ</th>
+                    <th>จังหวัด</th>
+                    <th>อายุ</th>
+                    
+                </tr>
+            </table>
+        
+        </div>
+    </body>
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+          apiKey: "AIzaSyAJXLuaer9ww3NnnhqGOMCqiK4LIqd7R8w",
+          authDomain: "test-76f59.firebaseapp.com",
+          projectId: "test-76f59",
+          storageBucket: "test-76f59.appspot.com",
+          messagingSenderId: "579151948208",
+          appId: "1:579151948208:web:780cb0c53322bb7dc74e75",
+          measurementId: "G-BQE0TWG4W6"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>
+      <script src="app.js"charset="utf-8"></script>
+</html>
+ 
